@@ -9,8 +9,8 @@ Current Commands:
 - /tickrate - Get the server's tickrate and lag percentage.
 
 Permissions:
-gfcu.clearlag - /clearlag
-gfcu.nuke - /nuke
-gfcu.pkill - /pkill
-gfcu.safeboom - /safeboom
-gfcu.tickrate - /tickrate
+- gfcu.clearlag - /clearlag
+- gfcu.nuke - /nuke
+- gfcu.pkill - /pkill
+- gfcu.safeboom - /safeboom
+- gfcu.tickrate - /tickrate
