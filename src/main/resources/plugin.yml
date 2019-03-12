@@ -5,22 +5,27 @@ api-version: 1.13
 prefix: GFCU
 commands:
   killp:
-    description: This is a demo command.
+    description: Kills a player with an explosion.
     usage: /<command> [player]
-    permission: <plugin name>.killp
+    permission: gfcu.killp
     permission-message: You don't have <permission>
   safeboom:
-    description: This is a demo command.
+    description: Explodes a player without doing damage.
     usage: /<command> [player]
-    permission: <plugin name>.safeboom
+    permission: gfcu.safeboom
     permission-message: You don't have <permission>
   nuke:
-    description: Nukes the player.
+    description: Nukes a player.
     usage: /<command> [player]
-    permission: <plugin name>.nuke
+    permission: gfcu.nuke
     permission-message: You don't have <permission>
   clearlag:
     description: Clears dropped items.
-    usage: /<command> [player]
-    permission: <plugin name>.clearlag
+    usage: /<command>
+    permission: gfcu.clearlag
+    permission-message: You don't have <permission>
+  tickrate:
+    description: Get the server's tickrate.
+    usage: /<command>
+    permission: gfcu.tickrate
     permission-message: You don't have <permission>

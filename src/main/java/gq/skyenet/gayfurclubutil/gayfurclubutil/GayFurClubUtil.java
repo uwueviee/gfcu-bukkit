@@ -14,7 +14,8 @@ public final class GayFurClubUtil extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        getLogger().info("Loaded the utilities for the Gay Fur Club SMP");
+        getServer().getScheduler().scheduleSyncRepeatingTask(this, new Lag(), 100L, 1L);
+        getLogger().info("Loaded the utilities for the Gay Fur Club SMP Server");
 
     }
 
@@ -99,6 +100,12 @@ public final class GayFurClubUtil extends JavaPlugin {
                 }
             }
             sender.sendMessage("[GFCU] Cleared all items.");
+            return true;
+        } else if (cmd.getName().equalsIgnoreCase("tickrate")) {
+            double tps = Lag.getTPS();
+            double lag = Math.round((1.0D - tps / 20.0D) * 100.0D);
+            sender.sendMessage("[GFCU] Current TPS: " + Lag.getTPS());
+            sender.sendMessage("[GFCU] Lag percentage is %" + lag);
             return true;
         }
         return false;
