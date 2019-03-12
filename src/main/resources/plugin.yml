@@ -1,0 +1,26 @@
+name: GayFurClubUtil
+version: ${project.version}
+main: gq.skyenet.gayfurclubutil.gayfurclubutil.GayFurClubUtil
+api-version: 1.13
+prefix: GFCU
+commands:
+  killp:
+    description: This is a demo command.
+    usage: /<command> [player]
+    permission: <plugin name>.killp
+    permission-message: You don't have <permission>
+  safeboom:
+    description: This is a demo command.
+    usage: /<command> [player]
+    permission: <plugin name>.safeboom
+    permission-message: You don't have <permission>
+  nuke:
+    description: Nukes the player.
+    usage: /<command> [player]
+    permission: <plugin name>.nuke
+    permission-message: You don't have <permission>
+  clearlag:
+    description: Clears dropped items.
+    usage: /<command> [player]
+    permission: <plugin name>.clearlag
+    permission-message: You don't have <permission>

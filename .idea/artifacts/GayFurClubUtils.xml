@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GayFurClubUtils">
+    <output-path>$PROJECT_DIR$/out/artifacts/GayFurClubUtils</output-path>
+    <root id="archive" name="GayFurClubUtils.jar">
+      <element id="module-output" name="gayfurclubutil" />
+    </root>
+  </artifact>
+</component>
